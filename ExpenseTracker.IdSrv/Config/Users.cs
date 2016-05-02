@@ -9,7 +9,7 @@ using Thinktecture.IdentityServer.Core.Services.InMemory;
 
 namespace ExpenseTracker.IdSrv.Config
 {
-    public class User
+    public class Users
     {
         public static List<InMemoryUser> Get()
         {
