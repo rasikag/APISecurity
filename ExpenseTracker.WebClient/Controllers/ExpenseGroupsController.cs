@@ -16,6 +16,7 @@ using System.Web.Mvc;
 
 namespace ExpenseTracker.WebClient.Controllers
 {
+    [Authorize]
     public class ExpenseGroupsController : Controller
     {
 
